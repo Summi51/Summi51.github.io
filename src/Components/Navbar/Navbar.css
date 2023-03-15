@@ -1,0 +1,20 @@
+
+#nav-menu{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    margin: auto;
+    height: auto;
+}
+
+.logo>img{
+    width: 100px;
+}
+
+.navbar{
+    display:flex;
+    width: 50%;
+    justify-content: space-around;
+    height: auto;
+}
