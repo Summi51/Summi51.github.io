@@ -45,7 +45,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="nav-link about">
-          <Link className="link nav-link about" to="About" smooth>
+          <Link className="link" to="About" smooth>
             About
           </Link>
         </li>
