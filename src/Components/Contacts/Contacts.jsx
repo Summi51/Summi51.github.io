@@ -19,12 +19,12 @@ export const Contacts = () => {
             <div className="card-details">
               <p className="card-details-item">
                 <span className="card-details-label">Phone:</span>
-                <span className="card-details-value">+968 97859628</span>
+                <span className="card-details-value">+91 8738040057</span>
               </p>
               <p className="card-details-item">
                 <span className="card-details-label">Email:</span>
                 <span className="card-details-value">
-                  noor.jsdivs@gmail.com
+                  inayatsamreen1411@gmail.com
                 </span>
               </p>
             </div>
