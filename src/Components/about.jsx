@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../assests/photo.png.jpeg";
-import CV from "../assests/cv.pdf";
+// import CV from "../assests/cv.pdf";
 
 const About = () => {
   return (
@@ -16,17 +16,19 @@ const About = () => {
           <h2 id="user-detail-name">
             I'm <span>Samreen Inayat</span> from Pratapgarh, UttarPradesh
           </h2>
-
-          <h4>Mern Developer</h4>
+          {/* <h4>Mern Developer</h4> */}
           <p id="user-detail-intro" style={{ letterSpacing: "1px" }}>
-            An enthusiastic Mern Developer with excellent hands-on experience in
-            developing scalable websites and application using a wide range of
-            front-end and back-end skills like HTML, CSS, JavaScript, React,
-            Redux and Node Js. Highly skilled in design, development and
-            implementation of functional specifications, Ready for taking
-            challenging roles..
+            A Frontend Web developer with good technical
+            skills in Masai School who possess self-discipline
+            and the ability to work under minimum
+            supervision. Forward to join a progressive
+            organization with opportunities to work on
+            significant projects. Developing scalable websites and application using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React, Redux, TypeScript and Node Js.
+            {/* About Me
+            An enthusiastic Mern Developer with excellent hands-on experience in developing scalable websites and application using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React, Redux and Node Js. Highly skilled in design, development and implementation of functional specifications, Ready for taking challenging roles.. */}
+
           </p>
-          <button id="resume-button-2" style={{ marginTop: "5px" }}>
+          {/* <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               href={CV}
               download="pdf"
@@ -42,7 +44,7 @@ const About = () => {
               </span>
               Resume
             </a>
-          </button>
+          </button> */}
         </div>
       </section>
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../assests/cv.pdf";
+import Typewriter from 'typewriter-effect'
 
 const Home = () => {
   return (
@@ -11,8 +12,24 @@ const Home = () => {
             <span className="two">I'm</span>
           </div>
           <h1 id="user-detail-name">Samreen Inayat</h1>
-          <h3 id="user-detail-skill">
+          {/* <h3 id="user-detail-skill">
             Mern <span>Developer.</span>
+          </h3> */}
+          <h3  id="user-detail-skill">
+
+          <Typewriter 
+        options={{
+          strings: [
+            "A Full Stack Web Developer",
+            "An eSports Enthusiast",
+            "A Traveller",
+            "A MERN Stack Developer",
+          ],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 50,
+        }}
+      />
           </h3>
 
           <br />

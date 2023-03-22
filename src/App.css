@@ -10,7 +10,7 @@
 :root{
   --bg-color: #02050F;
     --second-bg-color: #202020;
-    --text-color: rgb(105, 105, 105);
+    --text-color: rgb(92, 90, 90);
     --second-color: #fff;
     --main-color: #42b2e6;
     --big-font: 5rem;
@@ -65,9 +65,14 @@ span{
 }
 
  #nav-menu{
+  /* my code */
+ border-bottom-color: white;  
  background : var(--bg-color);
 }
 
+/* .navlist :hover{
+  border-bottom-color: white;
+} */
 #menu-icon{
   font-size: 35px;
   color: var(--text-color);
@@ -193,7 +198,7 @@ header.sticky{
 .about-img img{
   border: 0px solid crimson;
   max-width: 350px;
-  height: 450px;
+  height: 400px;
   width: 300px;
   border-radius: 10%;
   align-items: end;

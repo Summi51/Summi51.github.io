@@ -1,6 +1,6 @@
 import React from "react";
 import geek from "../assests/pirate.png";
-import lens from "../assests/lenskart.png";
+import dolor from "../assests/dollor.png";
 import cal from "../assests/cal.png";
 import { SiNetlify } from "react-icons/si";
 import gojo from "../assests/gojo.png";
@@ -18,7 +18,7 @@ const Projects = () => {
 
         <div className="nav-link projects" id="nav-link-projects">
           <div className="project-card">
-            <img src={lens} alt="" />
+            <img src={dolor} alt="" />
             <div className="layer">
               <h5 className="project-title">Visula Design</h5>
               <p className="project-description">
@@ -97,7 +97,7 @@ const Projects = () => {
                 Login/ Sign-Up | Search Functionality |
                 Add-to-Cart | Real-Time Information .
               </p>
-              <p className="project-tech-stack">Tech-Stack</p>
+              <p className="project-tech-stack">Tech-Stack : HTML , CSS, JS-</p>
               <div className="project-deployed-link">
                 <a
                   href="https://stirring-cocada-9ed5ac.netlify.app/"
