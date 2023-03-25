@@ -2,10 +2,17 @@ import React from "react";
 import { useState } from "react";
 import CV from "../assests/cv.pdf";
 import DropDown from "./dropDown";
+import {Button, useColorMode} from '@chakra-ui/react';
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 const Header = () => {
+
+  const { colorMode, toggleColorMode } = useColorMode();
+
   const [activeNave, setActiveNav] = useState("#");
+  
   const [selectedOption, setSelectedOption] = useState("");
+  
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
   };
@@ -69,7 +76,13 @@ const Header = () => {
             >
               Resume
             </a>
+
+              <Button onClick={toggleColorMode} style={{paddingLeft:'20px'}}>
+                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+              </Button>
+
           </button>
+
         </ul>
         <div id="menu-icon">
           <DropDown
