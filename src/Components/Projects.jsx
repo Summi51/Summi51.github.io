@@ -1,10 +1,12 @@
+// My code---------------------------------------------------------
+
 import React from "react";
-import geek from "../assests/pirate.png";
-import dolor from "../assests/dollor.png";
-import cal from "../assests/cal.png";
-import { SiNetlify } from "react-icons/si";
-import gojo from "../assests/gojo.png";
 import { AiFillGithub } from "react-icons/ai";
+import { SiNetlify } from "react-icons/si";
+import cal from "../assests/cal.png";
+import dolor from "../assests/dollor.png";
+import geek from "../assests/pirate.png";
+import vastram from "../assests/vastram.png";
 
 const Projects = () => {
   return (
@@ -12,27 +14,23 @@ const Projects = () => {
       <section id="projects">
         <div className="main-text">
           <h2>
-            <span>Latest </span>Projects
+            <span>Latest</span>Projects
           </h2>
         </div>
 
         <div className="nav-link projects" id="nav-link-projects">
           <div className="project-card">
-            <img src={dolor} alt="" />
+            <img src={vastram} alt="" />
             <div className="layer">
-              <h5 className="project-title">Visula Design</h5>
+              <h5 className="project-title">Vastram (Clone Of Belk)</h5>
               <p className="project-description">
-                E-Commerce Product Based retail site
-                Login/ Sign-Up | Search Functionality |
-                Add-to-Cart. | Sort/ Filter the product
-                information | Real-Time Information | Admin
-                panel .
+                Vastram is an online shopping destination for products.
               </p>
               <p className="project-tech-stack">
-                Tech-Stack : REACT, JS, HTML, CSS, Chakra
+                Tech-Stack : React.js, Redux, JSON Server, ChakraUI
               </p>
               <div className="project-deployed-link">
-                <a href="https://deluxe-macaron-3eb024.netlify.app/" target="_blank">
+                <a href="https://belk-xi.vercel.app/" target="_blank">
                   <i>
                     <SiNetlify />
                   </i>
@@ -40,43 +38,7 @@ const Projects = () => {
               </div>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/Summi51/beneficial-spiders-5753"
-                  target="_blank"
-                  id="project-deployed-link"
-                >
-                  <i>
-                    <AiFillGithub />
-                  </i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <img src={geek} alt="" />
-            <div className="layer">
-              <h5 className="project-title">Visula Design</h5>
-              <p className="project-description">
-                E-Commerce Cosmetics retail site
-                Login/ Sign-Up | Search Functionality |
-                Add-to-Cart. | Sort/ Filter the product
-                information | Real-Time Information | Admin
-                panel .
-              </p>
-              <p className="project-tech-stack">Tech-Stack : HTML , CSS, JS</p>
-              <div className="project-deployed-link">
-                <a
-                  href="https://violetbeaute.netlify.app/"
-                  target="_blank"
-                >
-                  <i>
-                    <SiNetlify />
-                  </i>
-                </a>
-              </div>
-              <div className="project-github-link">
-                <a
-                  href="https://github.com/omprakash8788/-windy-picture-8509"
+                  href="https://github.com/Summi51/Clone-Of-Belk"
                   target="_blank"
                   id="project-deployed-link"
                 >
@@ -91,18 +53,17 @@ const Projects = () => {
           <div className="project-card">
             <img src={cal} alt="" />
             <div className="layer">
-              <h5 className="project-title">Visula Design</h5>
+              <h5 className="project-title">
+                Fashionology (Clone Of Anthropology)
+              </h5>
               <p className="project-description">
-                E-Commerce Fashion retail site
-                Login/ Sign-Up | Search Functionality |
-                Add-to-Cart | Real-Time Information .
+                Fashionology is a new age clothing and apparel store for women.
               </p>
-              <p className="project-tech-stack">Tech-Stack : HTML , CSS, JS-</p>
+              <p className="project-tech-stack">
+                Tech-Stack : MongoDB, Express.js, React.js, Node.js, ChakraUI
+              </p>
               <div className="project-deployed-link">
-                <a
-                  href="https://stirring-cocada-9ed5ac.netlify.app/"
-                  target="_blank"
-                >
+                <a href="https://fashionology.vercel.app/" target="_blank">
                   <i>
                     <SiNetlify />
                   </i>
@@ -110,7 +71,7 @@ const Projects = () => {
               </div>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/Summi51/dazzling-wing-7781"
+                  href="https://github.com/Summi51/Clone-Of-Anthropology"
                   target="_blank"
                   id="project-deployed-link"
                 >
@@ -123,21 +84,19 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
-            <img src={gojo} alt="" />
+            <img src={geek} alt="" />
             <div className="layer">
-              <h5 className="project-title">Visula Design</h5>
+              <h5 className="project-title">
+                Violet Beaute (Clone Of Purplle)
+              </h5>
               <p className="project-description">
-                IAn enthusiast of a particular topic or field. Geeks are
-                “collection” oriented, gathering facts and mementos related to
-                their subject of interest. They are obsessed with the newest,
-                coolest, trendiest things .
+                Violet Beaute is an e-commerce cosmetics retail site.
               </p>
-              <p className="project-tech-stack">Tech-Stack : HTML, CSS, JS</p>
-              <div class="project-deployed-link">
-                <a
-                  href="https://genuine-pastelito-cc0593.netlify.app/"
-                  target="_blank"
-                >
+              <p className="project-tech-stack">
+                Tech-Stack : JavaScript, HTML, CSS, REST API
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://violetbeaute.netlify.app/" target="_blank">
                   <i>
                     <SiNetlify />
                   </i>
@@ -145,7 +104,45 @@ const Projects = () => {
               </div>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/masai-course/samreen_inayat_fw22_0669/blob/master/unit-2/sprint-3/day-2/we/Calculator.html"
+                  href="https://github.com/Summi51/Clone-Of-Purplle"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={dolor} alt="" />
+            <div className="layer">
+              <h5 className="project-title">Code Converter</h5>
+              <p className="project-description">
+                Code Converter simplifies code and data format conversions.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : React.js Node.js, OpenAI, ChakraUI
+              </p>
+
+              {/* my code */}
+
+              <div class="project-deployed-link">
+                <a
+                  href="https://gai201-converter-app.vercel.app/"
+                  target="_blank"
+                >
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/Code-Converter"
                   target="_blank"
                   id="project-deployed-link"
                 >

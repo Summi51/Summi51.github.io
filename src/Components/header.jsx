@@ -1,18 +1,16 @@
-import React from "react";
-import { useState } from "react";
+import { useColorMode } from "@chakra-ui/react";
+import React, { useState } from "react";
 import CV from "../assests/cv.pdf";
 import DropDown from "./dropDown";
-import {Button, useColorMode} from '@chakra-ui/react';
-import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-
+//my
+import Typewriter from "typewriter-effect";
 const Header = () => {
-
   const { colorMode, toggleColorMode } = useColorMode();
 
   const [activeNave, setActiveNav] = useState("#");
-  
+
   const [selectedOption, setSelectedOption] = useState("");
-  
+
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
   };
@@ -21,7 +19,15 @@ const Header = () => {
       <header id="nav-menu">
         <a href="#" className="logo" onClick={() => setActiveNav("#")}>
           {" "}
-          Samreen <span> Inayat </span>
+          {/* Samreen <span> Inayat </span> */}
+          <Typewriter
+            options={{
+              strings: ["Samreen"],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 50,
+            }}
+          />
         </a>
         <ul className="navlist">
           <li>
@@ -61,11 +67,15 @@ const Header = () => {
               Contact
             </a>
           </li>
-          <button id="resume-button-1">
+          <button
+            style={{ backgroundColor: "#e75300", borderRadius: "5px" }}
+            id="resume-button-1"
+          >
             <a
+              style={{ backgroundColor: "#e75300", color: "white" }}
               href={CV}
               target="_blank"
-              download="pdf"
+              download="Samreen-Inayat-Resume"
               id="resume-link-1"
               className="nav-link resume"
               onClick={() =>
@@ -77,12 +87,10 @@ const Header = () => {
               Resume
             </a>
 
-              <Button onClick={toggleColorMode} style={{paddingLeft:'20px'}}>
+            {/* <Button onClick={toggleColorMode} style={{paddingLeft:'20px'}}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-              </Button>
-
+              </Button> */}
           </button>
-
         </ul>
         <div id="menu-icon">
           <DropDown

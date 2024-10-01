@@ -6,7 +6,7 @@ const End = () => {
     <>
       <section className="end">
         <div className="last" style={{display : "flex"}}>
-        <AiOutlineCopyrightCircle color=" #42b2e6"/>
+        <AiOutlineCopyrightCircle color="#EC5700"/>
           <p>
             Created by Samreen Inayat 2023 All Rights Reserved.
           </p>
@@ -14,7 +14,7 @@ const End = () => {
         </div>
         <div className="top">
           <a href="#home">
-            <BsArrowUpSquare style={{ color: " #42b2e6" }} />
+            <BsArrowUpSquare style={{ color: "#EC5700" }} />
           </a>
         </div>
       </section>

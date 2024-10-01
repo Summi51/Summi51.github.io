@@ -7,26 +7,34 @@ const About = () => {
     <>
       <section className="about section" id="about">
         <div className="about-img">
-          <img className="home-img" src={me} alt="home-image" />
+          <img
+            className="home-img"
+            src={me}
+            style={{ width: "100%" }}
+            alt="home-image"
+          />
         </div>
         <div className="nav-link about">
-          <h1>
-            About <span>Me</span>
+          <h1 style={{ fontSize: "18px" }}>
+            About <span>Me...</span>
           </h1>
           <h2 id="user-detail-name">
-            I'm <span>Samreen Inayat</span> from Pratapgarh, UttarPradesh
+            I'm <span>Samreen Inayat</span> from Pratapgarh, Uttar Pradesh
           </h2>
           {/* <h4>Mern Developer</h4> */}
-          <p id="user-detail-intro" style={{ letterSpacing: "1px" }}>
-            A Frontend Web developer with good technical
-            skills in Masai School who possess self-discipline
-            and the ability to work under minimum
-            supervision. Forward to join a progressive
-            organization with opportunities to work on
-            significant projects. Developing scalable websites and application using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React, Redux, TypeScript and Node Js.
+          <br />
+          <br />
+          <p
+            id="user-detail-intro"
+            style={{ letterSpacing: "1px", textAlign: "justify" }}
+          >
+            {/* An aspiring Full Stack Web Developer with a strong command of HTML, CSS, and JavaScript, proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). A constant learner with the ability to adapt to new technologies, capable of providing valuable support while working in teams. */}
+
+            An aspiring Full Stack Web Developer with expertise in HTML, CSS, and JavaScript, proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), along with NestJS and GraphQL. A quick learner, adaptable to new technologies, and skilled in collaborative team environments.
+
+            
             {/* About Me
             An enthusiastic Mern Developer with excellent hands-on experience in developing scalable websites and application using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React, Redux and Node Js. Highly skilled in design, development and implementation of functional specifications, Ready for taking challenging roles.. */}
-
           </p>
           {/* <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
