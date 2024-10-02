@@ -80,7 +80,7 @@ const Header = () => {
               className="nav-link resume"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1xToIqX_OF_AIg_c4FZYW943_D9NaLcpI/view?usp=sharing"
+                  "https://drive.google.com/file/d/1yJqfx_NPoFEN09utO4NEweYJ5TjqGk5U/view?usp=sharing"
                 )
               }
             >
