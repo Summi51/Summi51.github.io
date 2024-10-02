@@ -29,10 +29,12 @@ const About = () => {
             style={{ letterSpacing: "1px", textAlign: "justify" }}
           >
             {/* An aspiring Full Stack Web Developer with a strong command of HTML, CSS, and JavaScript, proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). A constant learner with the ability to adapt to new technologies, capable of providing valuable support while working in teams. */}
-
-            An aspiring Full Stack Web Developer with expertise in HTML, CSS, and JavaScript, proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), along with NestJS and GraphQL. A quick learner, adaptable to new technologies, and skilled in collaborative team environments.
-
-            
+            {/* An aspiring Full Stack Web Developer with expertise in HTML, CSS, and JavaScript, proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), along with NestJS and GraphQL. A quick learner, adaptable to new technologies, and skilled in collaborative team environments. */}
+            Full Stack Developer with 9 months of experience in building
+            scalable websites and APIs using NestJS, GraphQL, MongoDB,
+            Express.js, React.js, Node.js, HTML, CSS, and JavaScript. A detail
+            oriented problem solver and collaborative team player, eager to
+            learn and deliver user-friendly solutions.
             {/* About Me
             An enthusiastic Mern Developer with excellent hands-on experience in developing scalable websites and application using a wide range of front-end and back-end skills like HTML, CSS, JavaScript, React, Redux and Node Js. Highly skilled in design, development and implementation of functional specifications, Ready for taking challenging roles.. */}
           </p>
