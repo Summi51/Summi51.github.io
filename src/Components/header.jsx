@@ -1,6 +1,6 @@
 import { useColorMode } from "@chakra-ui/react";
 import React, { useState } from "react";
-import CV from "../assests/cv.pdf";
+import C from "../assests/c.pdf";
 import DropDown from "./dropDown";
 //my
 import Typewriter from "typewriter-effect";
@@ -73,7 +73,7 @@ const Header = () => {
           >
             <a
               style={{ backgroundColor: "#e75300", color: "white" }}
-              href={CV}
+              href={C}
               target="_blank"
               download="Samreen-Inayat-Resume"
               id="resume-link-1"

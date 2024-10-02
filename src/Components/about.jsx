@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../assests/photo.png.jpeg";
-// import CV from "../assests/cv.pdf";
+// import C from "../assests/c.pdf";
 
 const About = () => {
   return (
@@ -40,7 +40,7 @@ const About = () => {
           </p>
           {/* <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
-              href={CV}
+              href={C}
               download="pdf"
               id="resume-link-2"
               onClick={() =>

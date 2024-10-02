@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import CV from "../assests/cv.pdf";
+import C from "../assests/c.pdf";
 
 const Home = () => {
   return (
@@ -56,7 +56,7 @@ const Home = () => {
           <button id="resume-button-2" style={{ marginTop: "5px" }}>
             <a
               style={{ paddingRight: "10px" }}
-              href={CV}
+              href={C}
               download="Samreen-Inayat-Resume"
               id="resume-link-2"
               target="_blank"
