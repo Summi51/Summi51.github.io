@@ -8,11 +8,7 @@ const End = () => {
         <div className="last" style={{display : "flex"}}>
         <AiOutlineCopyrightCircle color="#EC5700"/>
           <p>
-<<<<<<< HEAD
             Created by Samreen Inayat 2026 All Rights Reserved.
-=======
-            Created by Samreen Inayat 2023 All Rights Reserved.
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
           </p>
          
         </div>

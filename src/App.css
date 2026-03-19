@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
   text-decoration: none;
 }
-<<<<<<< HEAD
 /* html {
   scroll-snap-type: y mandatory;
 }
@@ -15,9 +14,6 @@
 section {
   scroll-snap-align: start;
 } */
-=======
-
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 .body {
   color: var(--text-color);
   background: var(--bg-color);
@@ -111,7 +107,6 @@ span {
 section {
   padding: 160px 15% 120px;
 }
-<<<<<<< HEAD
 /* section {
   height: 100vh;
   padding: 120px 15%;
@@ -120,18 +115,11 @@ section {
   justify-content: center;
 } */
  
-=======
-
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 /* Home  */
 
 #home {
   height: 100vh;
-<<<<<<< HEAD
   margin-top: 1%;
-=======
-  margin-top: 6%;
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   background-image: url("./assests/banner.png");
   position: relative;
   width: 100%;
@@ -140,10 +128,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-<<<<<<< HEAD
     /* margin-top: 6%; */
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 
 .one {
@@ -236,17 +221,12 @@ header.sticky {
 
 /* About */
 
-<<<<<<< HEAD
 /* #about {
-=======
-#about {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   grid-template-columns: repeat(2, 1fr);
   border: 0px solid #ec5700;
   display: grid;
   align-items: center;
   object-fit: cover;
-<<<<<<< HEAD
     scroll-margin-top: 130px;
   overflow: auto;
 } */
@@ -256,9 +236,6 @@ header.sticky {
   align-items: center;
   gap: 3rem;
   scroll-margin-top: 130px;
-=======
-  overflow: auto;
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 .about-img img {
   width: 300px;
@@ -290,7 +267,6 @@ header.sticky {
   margin: 15px 0 30px;
 }
 
-<<<<<<< HEAD
 /* Experience */
 
 /* EXPERIENCE TIMELINE */
@@ -510,51 +486,32 @@ header.sticky {
   }
 } */
 
-=======
-/* skills */
-
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 .main-text {
   text-align: center;
 }
 
-<<<<<<< HEAD
 /* #skills {
   background: var(--second-bg-color);
 } */
-=======
-#skills {
-  background: var(--second-bg-color);
-}
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 
 .main-text p {
   color: #ec5700;
   margin-bottom: 15px;
   font-size: 15px;
 }
-<<<<<<< HEAD
 
 /* #skills-part {
-=======
-#skills-part {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   align-items: center;
   display: grid;
   gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   margin-top: 2rem;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 
 .main-text h2 {
   line-height: 1;
   font-size: var(--h2-font);
 }
-<<<<<<< HEAD
 /* .skills-card-img i {
   margin-bottom: 20px;
   font-size: 32px;
@@ -570,46 +527,19 @@ header.sticky {
 } */
 
 /* .skills-card p {
-=======
-.skills-card-img i {
-  margin-bottom: 20px;
-  font-size: 32px;
-}
-
-.skills-card {
-  text-align: center;
-  background: var(--bg-color);
-  padding: 35px 25px;
-  border-radius: 8px;
-  justify-content: center;
-  transition: all 0.65s ease;
-}
-
-.skills-card p {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   color: var(--second-color);
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 25px;
-<<<<<<< HEAD
 } */
 
 /* .skills-card h3 {
-=======
-}
-
-.skills-card h3 {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   font-size: 24px;
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 15px;
   text-align: center;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 .read:hover {
   letter-spacing: 1px;
   background: #ffffff99;
@@ -625,7 +555,6 @@ header.sticky {
   background: #ec5700;
   transition: all 0.45s ease;
 }
-<<<<<<< HEAD
 /* .skills-card:hover {
   transform: translateY(-8px);
   cursor: pointer;
@@ -636,21 +565,10 @@ header.sticky {
   scroll-margin-top: 120px;
 }
 /* #stat {
-=======
-.skills-card:hover {
-  transform: translateY(-8px);
-  cursor: pointer;
-}
-
-/* github  */
-
-#stat {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   margin-top: 50px;
   justify-content: space-between;
   display: flex;
   gap: 10px;
-<<<<<<< HEAD
 } */
  #stat {
   margin-top: 20px;
@@ -659,19 +577,13 @@ header.sticky {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 
 #github-top-langs {
   height: 196px;
   border: 0px solid crimson;
-<<<<<<< HEAD
   /* margin-top: -10%; */
   
-=======
-  margin-top: -10%;
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 .max-width {
   width: 80%;
@@ -971,10 +883,7 @@ form textarea {
   }
   #home {
     height: 87vh;
-<<<<<<< HEAD
       margin-top: 6%;
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   }
   #stat {
     margin-top: 50px;
@@ -998,11 +907,7 @@ form textarea {
   }
 }
 @media (max-width: 920px) {
-<<<<<<< HEAD
   /* #about {
-=======
-  #about {
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
     grid-template-columns: 1fr;
   }
   .about-img {
@@ -1015,7 +920,6 @@ form textarea {
     width: 100%;
     height: auto;
     max-width: 100%;
-<<<<<<< HEAD
   } */
     #about {
     grid-template-columns: 1fr;   /* 2 column se 1 column */
@@ -1040,8 +944,6 @@ form textarea {
   .nav-link-about p {
     font-size: 14px;
     line-height: 1.6;
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
   }
   #contact {
     grid-template-columns: 1fr;
@@ -1061,7 +963,6 @@ form textarea {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   }
-<<<<<<< HEAD
    #home {
     height: auto;              /* 100vh hatao */
     min-height: 100vh;
@@ -1094,8 +995,6 @@ form textarea {
     margin-top: 20px;
   }
 
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 
 @media (max-width: 840px) {
@@ -1147,10 +1046,7 @@ form textarea {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
-<<<<<<< HEAD
   
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
 }
 
 /* dropDown menu */
@@ -1187,7 +1083,3 @@ form textarea {
 .dropdown-item:last-child {
   border-bottom: none;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 4400d55243f575304088327c38133fc7b8007106
