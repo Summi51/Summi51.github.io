@@ -51,6 +51,30 @@ This document provides the required structure, IDs, and classes for your portfol
   - GitHub link: `class="project-github-link"`
   - Deployed link or video link: `class="project-deployed-link"`
 
+### Experience Section
+- `id="experience"`
+- Must include timeline items:
+  - Each timeline item: `class="timeline-item"` (can have `left` or `right`)
+  - Timeline content container: `class="timeline-content"`
+  - Timeline date: `class="timeline-date"`
+  - Tech stack used: `class="tech-stack"`
+- Example timeline items:
+  1. **Evervent | Mohali**  
+     - Role: Software Developer  
+     - Duration: July 2025 - Present  
+     - Description: Co-developed Insurance Booker (React, Next.js). Improved booking efficiency by 25% and reduced load time by 35%.  
+     - Tech: React, Next.js, Redux, TypeScript, MongoDB, Node.js
+  2. **Dezign Shark | Hyderabad**  
+     - Role: Full Stack Developer  
+     - Duration: Feb 2025 - July 2025  
+     - Description: Built project listings, SEO improvements & admin dashboards. Boosted traffic by 30%.  
+     - Tech: React, Redux, TypeScript, Material UI, Node, MongoDB
+  3. **upGrad Education | Hyderabad**  
+     - Role: Software Developer  
+     - Duration: Dec 2023 - Jan 2025  
+     - Description: Built Kafka-based Email & WhatsApp automation. Increased engagement by 35%.  
+     - Tech: React, Redux, GraphQL, NestJS, MongoDB
+
 ### Contact Section
 - `id="contact"`
 - Must include:
