@@ -83,6 +83,41 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
+            <img src={dolor} alt="" />
+            <div className="layer">
+              <h5 className="project-title">Hrms Lite</h5>
+              <p className="project-description">
+                Full-stack HRMS app with role-based access and attendance tracking.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : React.js, Vite, Node.js, MongoDB, Material UI
+              </p>
+              <div class="project-deployed-link">
+                <a
+                  href="https://hrms-lite-frontend-seven-dusky.vercel.app/"
+                  target="_blank"
+                >
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/hrms-lite"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
             <img src={geek} alt="" />
             <div className="layer">
               <h5 className="project-title">
@@ -115,7 +150,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          {/* <div className="project-card">
             <img src={dolor} alt="" />
             <div className="layer">
               <h5 className="project-title">Code Converter</h5>
@@ -125,9 +160,6 @@ const Projects = () => {
               <p className="project-tech-stack">
                 Tech-Stack : React.js Node.js, OpenAI, ChakraUI
               </p>
-
-              {/* my code */}
-
               <div class="project-deployed-link">
                 <a
                   href="https://gai201-converter-app.vercel.app/"
@@ -151,7 +183,10 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+
         </div>
       </section>
     </>
