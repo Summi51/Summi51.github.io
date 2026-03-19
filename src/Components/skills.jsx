@@ -15,6 +15,7 @@ import {
   SiNetlify,
   SiBitbucket,
   SiJira,
+  SiClickup,
 } from "react-icons/si";
 import { FaReact, FaNodeJs, FaGithub, FaJava } from "react-icons/fa";
 import { TbBrandJavascript, TbBrandCss3 } from "react-icons/tb";
@@ -72,6 +73,7 @@ const Skills = () => {
             <Skill icon={<SiVercel />} name="Vercel" />
             <Skill icon={<SiJira />} name="JIRA" />
             <Skill icon={<SiJenkins />} name="Jenkins" />
+            <Skill icon={<SiClickup />} name="ClickUp" />
           </div>
         </div>
 
