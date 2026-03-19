@@ -23,13 +23,13 @@ const Projects = () => {
             <img src={cal} alt="" />
             <div className="layer">
               <h5 className="project-title">
-                Fashionology (Clone Of Anthropologys)
+                Fashionology (Clone Of Ajio)
               </h5>
               <p className="project-description">
-                Fashionology is a new age clothing and apparel store for women.
+                Fashionology: Trendy fashion curated for style and comfort.
               </p>
               <p className="project-tech-stack">
-                Tech-Stack : MongoDB, Express.js, React.js, Node.js, ChakraUI
+                Tech-Stack : MongoDB, Express.js, React.js, Node.js, Material UI
               </p>
               <div className="project-deployed-link">
                 <a href="https://frontend-one-tau-euwzts257k.vercel.app/" target="_blank">
@@ -40,7 +40,7 @@ const Projects = () => {
               </div>
               <div className="project-github-link">
                 <a
-                  href="https://github.com/Summi51/Clone-Of-Anthropologys"
+                  href="https://github.com/Summi51/Clone-Of-Ajio"
                   target="_blank"
                   id="project-deployed-link"
                 >
