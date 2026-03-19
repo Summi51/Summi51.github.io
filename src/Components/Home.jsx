@@ -7,7 +7,11 @@ const Home = () => {
     <>
       <section id="home">
         <div className="nav-link home">
+<<<<<<< HEAD
           <div className="slide">
+=======
+          <div style={{ marginTop: "80px" }} className="slide">
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
             <br />
             <span
               style={{ marginLeft: "10px", paddingTop: "2px" }}
@@ -34,7 +38,11 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
+<<<<<<< HEAD
                   "MERN Stack Developer",
+=======
+                  "A MERN Stack Web Developer",
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
                   "Handmade Artistry",
                   "Tech Enthusiast",
                 ],
@@ -62,7 +70,11 @@ const Home = () => {
               target="_blank"
               onClick={() =>
                 window.open(
+<<<<<<< HEAD
                   "https://drive.google.com/file/d/12cbac2693_90mFVdsioFEXK3DYdeyvkM/view?usp=sharing"
+=======
+                  "https://drive.google.com/file/d/1yJqfx_NPoFEN09utO4NEweYJ5TjqGk5U/view?usp=sharing"
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
                 )
               }
             >

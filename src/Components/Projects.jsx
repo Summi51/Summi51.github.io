@@ -14,12 +14,17 @@ const Projects = () => {
       <section id="projects">
         <div className="main-text">
           <h2>
+<<<<<<< HEAD
             <span>Latest</span> Projects
+=======
+            <span>Latest</span>Projects
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
           </h2>
         </div>
 
         <div className="nav-link projects" id="nav-link-projects">
           <div className="project-card">
+<<<<<<< HEAD
             <img src={cal} alt="" />
             <div className="layer">
               <h5 className="project-title">
@@ -53,6 +58,8 @@ const Projects = () => {
           </div>
 
                <div className="project-card">
+=======
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
             <img src={vastram} alt="" />
             <div className="layer">
               <h5 className="project-title">Vastram (Clone Of Belk)</h5>
@@ -84,6 +91,42 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
+<<<<<<< HEAD
+=======
+            <img src={cal} alt="" />
+            <div className="layer">
+              <h5 className="project-title">
+                Fashionology (Clone Of Anthropology)
+              </h5>
+              <p className="project-description">
+                Fashionology is a new age clothing and apparel store for women.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : MongoDB, Express.js, React.js, Node.js, ChakraUI
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://fashionology.vercel.app/" target="_blank">
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/Clone-Of-Anthropology"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
             <img src={geek} alt="" />
             <div className="layer">
               <h5 className="project-title">

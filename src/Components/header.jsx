@@ -43,9 +43,12 @@ const Header = () => {
           <li>
             <a href="#about"> About</a>
           </li>
+<<<<<<< HEAD
               <li>
             <a href="#experience">Experience</a>
           </li>
+=======
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
           <li>
             <a href="#skills" onClick={() => setActiveNav("#skills")}>
               {" "}
@@ -83,7 +86,11 @@ const Header = () => {
               className="nav-link resume"
               onClick={() =>
                 window.open(
+<<<<<<< HEAD
                   "https://drive.google.com/file/d/12cbac2693_90mFVdsioFEXK3DYdeyvkM/view?usp=sharing"
+=======
+                  "https://drive.google.com/file/d/1yJqfx_NPoFEN09utO4NEweYJ5TjqGk5U/view?usp=sharing"
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
                 )
               }
             >
@@ -100,7 +107,10 @@ const Header = () => {
             options={[
               <a href="#home">Home</a>,
               <a href="#about">About</a>,
+<<<<<<< HEAD
               <a href="#experience">Experience</a>,
+=======
+>>>>>>> 4400d55243f575304088327c38133fc7b8007106
               <a href="#skills">Skills</a>,
               <a href="#projects">Projects</a>,
               <a href="#githubs">GitHub</a>,
