@@ -30,24 +30,18 @@ const Home = () => {
             Mern <span>Developer.</span>
           </h3> */}
 
-          <h3 style={{ color: "white" }} id="user-detail-skill">
+          <h3 id="user-detail-skill">
             <Typewriter
               options={{
                 strings: [
+                  "Full Stack Developer",
+                  "AI Engineer",
                   "MERN Stack Developer",
-                  "Handmade Artistry",
-                  "Tech Enthusiast",
                 ],
                 autoStart: true,
                 loop: true,
-                color: " black",
                 deleteSpeed: 50,
-              }}
-              textStyle={{
-                fontFamily: "Red Hat Display",
-                color: "white",
-                fontWeight: 500,
-                fontSize: "1.5em",
+                delay: 75,
               }}
             />
           </h3>

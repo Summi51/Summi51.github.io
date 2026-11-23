@@ -7,6 +7,10 @@ import cal from "../assests/cal.png";
 import dolor from "../assests/dollor.png";
 import geek from "../assests/pirate.png";
 import vastram from "../assests/vastram.png";
+import vydrivo from "../assests/vydrivo.jpg";
+import ragQa from "../assests/rag_qa.jpg";
+import qyron from "../assests/qyron.jpg";
+import screenshot from "../assests/Screenshot (2382).png";
 
 const Projects = () => {
   return (
@@ -19,6 +23,138 @@ const Projects = () => {
         </div>
 
         <div className="nav-link projects" id="nav-link-projects">
+          <div className="project-card">
+            <img src={vydrivo} alt="Vydrivo - AI Storyboard-to-Video SaaS" />
+            <div className="layer">
+              <h5 className="project-title">
+                Vydrivo - AI Storyboard-to-Video SaaS
+              </h5>
+              <p className="project-description">
+                Turns one idea into a reviewable storyboard, then a 60-90 second
+                vertical MP4 with Hindi voice-over and Hinglish captions.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : AWS Amplify, Cloudflare R2, Supabase (PostgreSQL), React, Node.js
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://dev.d35b51hio740im.amplifyapp.com/" target="_blank">
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/Vydrivo"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={screenshot} alt="" />
+            <div className="layer">
+              <h5 className="project-title">
+                Make My Marriage - Wedding Planning Platform
+              </h5>
+              <p className="project-description">
+                Next.js modular monolith with session auth, role-based access,
+                planning tools, guest RSVPs, email reminders and photo gallery.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : Next.js, TypeScript, MongoDB, Tailwind, Zod
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://dev.debru5zwxk5qm.amplifyapp.com/" target="_blank">
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/make-my-marriage"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={ragQa} alt="RAG Document Q&A" />
+            <div className="layer">
+              <h5 className="project-title">RAG Document Q&amp;A</h5>
+              <p className="project-description">
+                Answers questions from an uploaded PDF with page-referenced
+                sources using Gemini embeddings and top-5 vector retrieval.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : React, Node.js, MongoDB Atlas Vector Search, Gemini
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://rag-document-qa-ff68.vercel.app/" target="_blank">
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/rag-document-qa"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={qyron} alt="Qyron AI - Multimodal Chatbot" />
+            <div className="layer">
+              <h5 className="project-title">Qyron AI - Multimodal Chatbot</h5>
+              <p className="project-description">
+                Handles image, PDF, text, CSV and JSON inputs with model
+                fallback, JWT auth, saved chat history and public share links.
+              </p>
+              <p className="project-tech-stack">
+                Tech-Stack : React, Node.js, MongoDB, Gemini API
+              </p>
+              <div className="project-deployed-link">
+                <a href="https://chatbot-llm-7nzn.vercel.app/" target="_blank">
+                  <i>
+                    <SiNetlify />
+                  </i>
+                </a>
+              </div>
+              <div className="project-github-link">
+                <a
+                  href="https://github.com/Summi51/chatbot-LLM"
+                  target="_blank"
+                  id="project-deployed-link"
+                >
+                  <i>
+                    <AiFillGithub />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="project-card">
             <img src={cal} alt="" />
             <div className="layer">

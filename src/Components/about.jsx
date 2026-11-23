@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../assests/photo.png.jpeg";
+import me from "../assests/profile.jpg";
 // import C from "../assests/c.pdf";
 
 const About = () => {
@@ -10,8 +10,7 @@ const About = () => {
           <img
             className="home-img"
             src={me}
-            style={{ width: "100%" }}
-            alt="home-image"
+            alt="Samreen Inayat"
           />
         </div>
         <div className="nav-link about">

@@ -237,14 +237,28 @@ header.sticky {
   gap: 3rem;
   scroll-margin-top: 130px;
 }
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .about-img img {
-  width: 300px;
-  max-width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-
+  object-position: center;
   border-radius: 50%;
-  align-items: end;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid var(--main-color);
+  box-shadow: 0 0 25px rgba(236, 87, 0, 0.35), 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-img img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 35px rgba(236, 87, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .nav-link-about h2 {
@@ -427,48 +441,42 @@ header.sticky {
 /* Grid */
 #skills .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 20px;
 }
 
 /* Individual skill card */
 #skills .skill-card {
   background: var(--second-bg-color);
-  padding: 15px;
-  border-radius: 10px;
+  padding: 18px 12px;
+  border-radius: 12px;
   text-align: center;
   transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 105px;
 }
 
 #skills .skill-card:hover {
   background: #ec5700;
   color: white;
-  transform: scale(1.05);
+  transform: translateY(-5px) scale(1.03);
 }
 
 #skills .skill-icon {
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 8px;
-}
-
-/* Soft Skills */
-#skills .soft-skills {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-#skills .soft-skills span {
-  background: var(--second-bg-color);
-  padding: 8px 15px;
-  border-radius: 20px;
+#skills .skill-card p {
   font-size: 14px;
-  transition: 0.3s;
-}
-
-#skills .soft-skills span:hover {
-  background: #ec5700;
-  color: white;
+  font-weight: 500;
+  margin: 0;
 }
 
 /* Mobile Responsive */
@@ -643,6 +651,8 @@ header.sticky {
   transition: transform 0.5s;
   width: 100%;
   height: 330px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .layer p {
@@ -933,8 +943,9 @@ form textarea {
   }
 
   .about-img img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+    aspect-ratio: 1 / 1;
   }
 
   .nav-link-about h2 {
