@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.828ca795.css",
-    "main.js": "/static/js/main.da9c47de.js",
+    "main.css": "/static/css/main.ddc95959.css",
+    "main.js": "/static/js/main.406ada27.js",
     "static/js/453.5c6ddc6a.chunk.js": "/static/js/453.5c6ddc6a.chunk.js",
     "static/media/banner.png": "/static/media/banner.7e4ef2113b32d7126300.png",
     "static/media/cal.png": "/static/media/cal.5caa445227fce7226cc2.png",
@@ -9,14 +9,18 @@
     "static/media/pirate.png": "/static/media/pirate.6ad916826bb3d4acd961.png",
     "static/media/dollor.png": "/static/media/dollor.2187c5c492ebfd409509.png",
     "static/media/c.pdf": "/static/media/c.d28769839623da2a3c4e.pdf",
-    "static/media/photo.png.jpeg": "/static/media/photo.png.4f0e3c3a7e5abd2f71f7.jpeg",
+    "static/media/make_my_marriage.jpg": "/static/media/make_my_marriage.be6234c6f70cfce75a1b.jpg",
+    "static/media/profile.jpg": "/static/media/profile.7f7c24c995cbdf08f0b7.jpg",
+    "static/media/vydrivo.jpg": "/static/media/vydrivo.ed7e850670ddf8434d76.jpg",
+    "static/media/qyron.jpg": "/static/media/qyron.80990fa961c710b76d72.jpg",
+    "static/media/rag_qa.jpg": "/static/media/rag_qa.1835622de570401ce9ef.jpg",
     "index.html": "/index.html",
-    "main.828ca795.css.map": "/static/css/main.828ca795.css.map",
-    "main.da9c47de.js.map": "/static/js/main.da9c47de.js.map",
+    "main.ddc95959.css.map": "/static/css/main.ddc95959.css.map",
+    "main.406ada27.js.map": "/static/js/main.406ada27.js.map",
     "453.5c6ddc6a.chunk.js.map": "/static/js/453.5c6ddc6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.828ca795.css",
-    "static/js/main.da9c47de.js"
+    "static/css/main.ddc95959.css",
+    "static/js/main.406ada27.js"
   ]
 }
