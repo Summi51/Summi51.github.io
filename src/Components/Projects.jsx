@@ -10,7 +10,7 @@ import vastram from "../assests/vastram.png";
 import vydrivo from "../assests/vydrivo.jpg";
 import ragQa from "../assests/rag_qa.jpg";
 import qyron from "../assests/qyron.jpg";
-import screenshot from "../assests/Screenshot (2382).png";
+import makeMyMarriage from "../assests/make_my_marriage.jpg";
 
 const Projects = () => {
   return (
@@ -58,7 +58,10 @@ const Projects = () => {
           </div>
 
           <div className="project-card">
-            <img src={screenshot} alt="" />
+            <img
+              src={makeMyMarriage}
+              alt="Make My Marriage - Wedding Planning Platform"
+            />
             <div className="layer">
               <h5 className="project-title">
                 Make My Marriage - Wedding Planning Platform
